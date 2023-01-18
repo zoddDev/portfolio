@@ -6,9 +6,13 @@ import { Header } from "./Header";
 import { About } from "./About";
 import { Technologies } from "./Technologies";
 import { Projects } from "./Projects";
-import { Technologies2 } from "./Technologies2";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    localStorage.theme = "dark";
+    document.documentElement.classList.add("dark");
+  }, []);
   return (
     <>
       <Routes>
@@ -16,7 +20,7 @@ const App = () => {
           path="/"
           element={
             <Navbar>
-              <Header id="header" />
+              <Header />
               <About />
               <Technologies />
               <Projects />
