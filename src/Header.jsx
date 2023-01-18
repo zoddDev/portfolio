@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="p-24 hero-overlay bg-opacity-60"></div>
         <div className="p-24 text-center hero-content text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold font-firaCode">zoddDev</h1>
+            <h1 className="mb-5 text-5xl font-bold font-tnr">zoddDev</h1>
             <p className="mb-5 font-serif">
               'We can only see a short distance ahead, but we can see plenty there that needs to be
               done' - Alan M. Turing

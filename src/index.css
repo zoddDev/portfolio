@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: CaskaydiaCoveNFM;
+    font-weight: 400;
+    src: url("/public/fonts/CaskaydiaCoveNFM.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: TimesNewRomanProBold;
+    font-weight: 400;
+    src: url("/public/fonts/TimesNewRomanProBold.otf") format("opentype");
+  }
+}
+
 @tailwind utilities;

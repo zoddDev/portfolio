@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ["CaskaydiaCove Nerd Font Mono"],
+        // mono: ["CaskaydiaCove Nerd Font Mono"],
+        mono: ["CaskaydiaCoveNFM"],
+        tnrpro: ["TimesNewRomanProBold"],
+        tnr: ["Times New Roman"],
         firaCode: ["Fira Code"],
       },
       colors: {
