@@ -8,7 +8,7 @@ export const About = () => {
           <div className="max-w-md p-5 my-10">
             <h1 className="mb-10 font-mono text-5xl font-bold">About me</h1>
             <img
-              class="mask mask-circle h-48 w-48 mx-auto my-5"
+              className="mask mask-circle h-48 w-48 mx-auto my-5"
               src="https://avatars.githubusercontent.com/u/47508538?v=4"
               alt="Profile picture"
             />
