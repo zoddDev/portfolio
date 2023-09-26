@@ -13,10 +13,7 @@ export const About = () => {
               alt="Profile picture"
             />
             <p className="my-5 text-justify">
-              I'm José Sierra, a passionate Software Engineering student at the{" "}
-              <a href="https://www.uma.es" className="font-bold underline text-info">
-                University of Málaga, Spain (UMA)
-              </a>
+              I'm José Sierra, a passionate Software Engineer from Málaga, Spain.
               . Currently I'm{" "}
               {Math.abs(
                 new Date(Date.now() - new Date(2000, 12, 16).getTime()).getUTCFullYear() - 1970
@@ -24,9 +21,8 @@ export const About = () => {
               years old.
               <br />
               <br />
-              I'm currently working on a project called{" "}
-              <strong className="text-info">OrganiChat</strong>, which is going to be my final
-              project. I'll release the code on GitHub once I finish it.
+              I'm working remotely for <a href="https://www.linkedin.com/company/indra" className="font-bold underline text-info">Indra company</a>, on the backend side. 
+              I work with technologies such as Java, Spring Boot, Oracle SQL, etc. And other tools like Jira, Jenkins, Kibana, etc.
             </p>
           </div>
         </div>

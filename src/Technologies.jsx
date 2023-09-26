@@ -22,6 +22,23 @@ export const Technologies = () => {
                     </div>
                     <div className="flex p-4 col bg-darker">
                       <div className="flex items-center space-x-3">
+                        <div className="avatar">
+                          <div className="w-12 h-12 mask mask-squircle">
+                            <img
+                              src="https://www.manualweb.net/img/logos/java.png"
+                              alt="Java"
+                              className="bg-white"
+                            />
+                          </div>
+                        </div>
+                        <div>
+                          <div className="font-bold">Java</div>
+                          <div className="text-sm text-gray-400">Programming language</div>
+                        </div>
+                      </div>
+                    </div>{" "}
+                    <div className="flex p-4 col bg-darker">
+                      <div className="flex items-center space-x-3">
                         <div className="flex items-center space-x-3">
                           <div className="avatar">
                             <div className="w-12 h-12 mask mask-squircle">
@@ -38,23 +55,6 @@ export const Technologies = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="flex p-4 col bg-darker">
-                      <div className="flex items-center space-x-3">
-                        <div className="avatar">
-                          <div className="w-12 h-12 mask mask-squircle">
-                            <img
-                              src="https://www.manualweb.net/img/logos/java.png"
-                              alt="Java"
-                              className="bg-white"
-                            />
-                          </div>
-                        </div>
-                        <div>
-                          <div className="font-bold">Java</div>
-                          <div className="text-sm text-gray-400">Programming language</div>
-                        </div>
-                      </div>
-                    </div>{" "}
                     <div className="flex p-4 col bg-darker">
                       <div className="flex items-center space-x-3">
                         <div className="avatar">
@@ -122,6 +122,19 @@ export const Technologies = () => {
                   <div className="table w-full">
                     <div className="p-4 text-xs font-bold uppercase rounded-t-lg bg-nosferatu-darker">
                       Backend
+                    </div>
+                    <div className="flex p-4 col bg-darker">
+                      <div className="flex items-center space-x-3">
+                        <div className="avatar">
+                          <div className="w-12 h-12 mask mask-squircle">
+                            <img src="https://miro.medium.com/v2/resize:fit:1400/1*CIHazLUXhBCxiho2mE2glQ.png" alt="Spring Boot" />
+                          </div>
+                        </div>
+                        <div>
+                          <div className="font-bold">Spring Boot</div>
+                          <div className="text-sm text-gray-400">Backend framework</div>
+                        </div>
+                      </div>
                     </div>
                     <div className="flex p-4 col bg-darker">
                       <div className="flex items-center space-x-3">
@@ -196,6 +209,23 @@ export const Technologies = () => {
                         </div>
                         <div>
                           <div className="font-bold">PostgreSQL</div>
+                          <div className="text-sm text-gray-400">Database system</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex p-4 col bg-darker">
+                      <div className="flex items-center space-x-3">
+                        <div className="avatar">
+                          <div className="w-12 h-12 mask mask-squircle">
+                            <img
+                              src="https://www.webopedia.com/wp-content/uploads/1997/02/Webo.OracleProfile.png"
+                              alt="Oracle"
+                              className=""
+                            />
+                          </div>
+                        </div>
+                        <div>
+                          <div className="font-bold">Oracle SQL</div>
                           <div className="text-sm text-gray-400">Database system</div>
                         </div>
                       </div>
